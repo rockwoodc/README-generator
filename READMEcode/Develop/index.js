@@ -44,7 +44,7 @@ const promptQuestions = () => {
             type: 'list',
             name: 'license',
             message: 'What license did you use?',
-            choices: ['The MIT License', 'The GPL License', 'Apache License', 'N/A']
+            choices: ['MIT', 'Mozilla', 'Apache', 'BSD', 'None']
         },
         {
             //contributions of project
