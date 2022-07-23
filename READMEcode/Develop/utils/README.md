@@ -1,9 +1,9 @@
-# e
+# Great project
 
-  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+  ![Apache](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
 
   ## Description: 
-  e
+  This project is great!
 
   ## Table of Contents
   *[Installation](#installation)<br />
@@ -13,20 +13,20 @@
   *[Tests](#tests)
 
   ## Installation
-  e
+  npm install
 
   ## Usage
-  e
+  Use the power of greatness!
 
   ## License
-  Licensed by the Mozilla license
+  Licensed by the Apache license
 
   ## Contribution
-  e
+  Ask the creators first.
 
   ## Tests
-  e
+  See the creators.
 
   # Questions? Contact me:
-  *GitHub: http://github.com/e
-  *E-mail: e
+  *GitHub: http://github.com/greatness
+  *E-mail: great@greatness.com
