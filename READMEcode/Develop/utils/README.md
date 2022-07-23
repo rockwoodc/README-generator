@@ -1,9 +1,9 @@
-# w
+# e
 
-  ![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
   ## Description: 
-  w
+  e
 
   ## Table of Contents
   *[Installation](#installation)<br />
@@ -13,20 +13,20 @@
   *[Tests](#tests)
 
   ## Installation
-  w
+  e
 
   ## Usage
-  w
+  e
 
   ## License
-  Licensed by the MIT license
+  Licensed by the Mozilla license
 
   ## Contribution
-  w
+  e
 
   ## Tests
-  w
+  e
 
   # Questions? Contact me:
-  *GitHub: http://github.com/w
-  *E-mail: w
+  *GitHub: http://github.com/e
+  *E-mail: e

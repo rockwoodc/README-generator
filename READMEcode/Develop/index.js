@@ -31,7 +31,8 @@ const promptQuestions = () => {
             //installation of project
             type: 'input',
             name: 'installation',
-            message: 'How do you install your app?'
+            message: 'How do you install your app?',
+            default: 'npm install'
         },
         {
             //usage of project
@@ -64,32 +65,15 @@ const promptQuestions = () => {
             name: 'githubUserName',
             message: 'What is your GitHub username?'
         },
-        {type: 'input',
-        name: 'email',
-        message: 'What is your email address?'
+        {
+            type: 'input',
+            name: 'email',
+            message: 'What is your email address?'
         },
     ])
 };
 
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) {
-//     return new Promise((resolve, reject)=> {
-//         fs.writeFile('./utils/README.md', fileName, data, err => {
-//             if (err) {
-//                 reject(err);
-//                 return;
-//             }
-//             resolve({
-//                 ok: true,
-//                 message: 'File created!'
-//             });
-//         });
-//     });
-// };
-// writeToFile();
-
-
-// TODO: Create a function to initialize app
+//function to write & initialize app
 promptQuestions()
     .then( readmeData => {
         fs.writeFile('./utils/README.md', generateMarkdown(readmeData), err => {
@@ -99,6 +83,3 @@ promptQuestions()
         });
     });
 
-
-// Function call to initialize app
-// init();
