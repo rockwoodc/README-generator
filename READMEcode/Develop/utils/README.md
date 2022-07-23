@@ -1,9 +1,9 @@
-# q
+# w
 
-  
+  ![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   ## Description: 
-  q
+  w
 
   ## Table of Contents
   *[Installation](#installation)<br />
@@ -13,20 +13,20 @@
   *[Tests](#tests)
 
   ## Installation
-  q
+  w
 
   ## Usage
-  q
+  w
 
-  ## Liscense
-  Licensed by the [undefined](https://opensource.org/licenses/undefined) license
+  ## License
+  Licensed by the MIT license
 
   ## Contribution
-  q
+  w
 
   ## Tests
-  undefined
+  w
 
   # Questions? Contact me:
-  *GitHub: http://github.com/q
-  *E-mail: q
+  *GitHub: http://github.com/w
+  *E-mail: w

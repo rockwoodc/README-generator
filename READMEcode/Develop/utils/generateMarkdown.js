@@ -1,11 +1,10 @@
-const fs = require('fs');
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   var badge = ``
   switch(license){
     case 'MIT':
-      badge =`[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+      badge =`![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
       break;
     case 'Mozilla':
       badge = `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`
@@ -24,27 +23,25 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license !== 'None') {
-    return `[${(license)}](https://opensource.org/licenses/${(license)})`
-  }else {
+    return `[License](#license)`
+  }
     return ''
-  };
 };
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== 'None') {
-    return `Licensed by the ${renderLicenseLink(license)} license`;
-  }else {
+    return `Licensed by the ${license} license`;
+  }
   return ''
-  };
 };
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ${renderLicenseBadge(data.liscense)}
+  ${renderLicenseBadge(data.license)}
 
   ## Description: 
   ${data.description}
@@ -62,14 +59,14 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
 
-  ## Liscense
-  ${renderLicenseSection(data.liscense)}
+  ## License
+  ${renderLicenseSection(data.license)}
 
   ## Contribution
   ${data.contribution}
 
   ## Tests
-  ${data.tests}
+  ${data.test}
 
   # Questions? Contact me:
   *GitHub: http://github.com/${data.githubUserName}
